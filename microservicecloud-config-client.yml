@@ -13,7 +13,7 @@ spring:
 eureka:
     client:
       service-url:
-	    defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
+        defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
 	
 ---
 server:
@@ -26,9 +26,8 @@ spring:
 eureka:
     client:
       service-url:
-	    defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
+        defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
 	
-		
-		
+			
 # 请保存为utf-8格式
 # git@github.com:zdminglwy/microservicecloud-config.git
