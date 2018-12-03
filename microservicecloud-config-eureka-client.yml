@@ -1,5 +1,4 @@
-﻿
-spring:
+﻿spring:
     profiles:
         active: 
         - dev
@@ -16,7 +15,7 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com  # eureka服务端的实例名称
-    # hostname: localhost #eureka服务端的实例名称
+#   hostname: localhost #eureka服务端的实例名称
   client:
     register-with-eureka: false     # 服务端   false表示不向注册中心注册自己。
     fetch-registry: false     # 服务端  false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
@@ -36,7 +35,7 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com  # eureka服务端的实例名称
-    # hostname: localhost #eureka服务端的实例名称
+#   hostname: localhost #eureka服务端的实例名称
   client:
     register-with-eureka: false     # 服务端   false表示不向注册中心注册自己。
     fetch-registry: false     # 服务端  false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
